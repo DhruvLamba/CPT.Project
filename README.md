@@ -52,9 +52,4 @@ To restore the file:</br>
 
 
 
-# License
 
-[(Back to top)](#table-of-contents)
-
-
-The MIT License (MIT) 2017 - [OPEN COMMUNITY](https://github.com/upes-open).
