@@ -6,9 +6,12 @@
 ## About 
 #### The aim of the project is to create an encrypted and secured file storage system to transfer files within users in a remote location. This system will require an input that is successfully encrypted using any of the algorithm techniques and store them anywhere. The uploaded file can be downloaded by other users, but to read the data present in it, they have to decrypt the file using the decryption algorithm and the information provided about the file within the users by the owner
 
+ ![image](https://user-images.githubusercontent.com/84393721/200160165-65d3b29b-41d8-4008-afaa-ac7376d8eb07.png)
+
 # Table of contents
 - [Installation](#installation)
 - [Methodology](#methodology)
+- [License](#license)
 
 # Installation
 
@@ -51,4 +54,9 @@ To restore the file:</br>
 
 
 
+# License
 
+[(Back to top)](#table-of-contents)
+
+
+The MIT License (MIT) 2017 - [OPEN COMMUNITY](https://github.com/upes-open).

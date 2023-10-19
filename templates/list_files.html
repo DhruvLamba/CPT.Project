@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Encrypted Files</title>
+  </head>
+  <body>
+    <h1>Encrypted Files</h1>
+    {% if files %}
+    <ul>
+      {% for file in files %}
+      <li>
+        <a href="{{ url_for('download_file', filename=file) }}">{{ file }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>No encrypted files are available.</p>
+    {% endif %}
+
+    <h1>Uploaded Files</h1>
+    {% if uploaded_files %}
+    <ul>
+      {% for uploaded_file in uploaded_files %}
+      <li>{{ uploaded_file }}</li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>No uploaded files are available.</p>
+    {% endif %}
+
+    <a href="{{ url_for('index') }}">Back to Home</a>
+  </body>
+</html>
