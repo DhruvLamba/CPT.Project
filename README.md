@@ -13,7 +13,7 @@
 # Table of contents
 - [Installation](#installation)
 - [Methodology](#methodology)
-- [License](#license)
+
 
 # Installation
 
@@ -52,14 +52,8 @@ To restore the file:</br>
 4. Combine all the N subfiles to form the original file and provide it to the user for downloading.</br>
 ![image](https://github.com/DhruvLamba/CPT.Project/assets/84393721/3022863a-7a63-4194-ab7a-6b5baf2884e0)
 
-![image](https://github.com/DhruvLamba/CPT.Project/assets/84393721/93f55816-77b7-4c60-9646-d9ce14834072
+![image](https://github.com/DhruvLamba/CPT.Project/assets/84393721/93f55816-77b7-4c60-9646-d9ce14834072)
 
 ![image](https://github.com/DhruvLamba/CPT.Project/assets/84393721/6cdde0af-0f1c-4e39-b7e4-f7c8fa9d9087)
 
 
-# License
-
-[(Back to top)](#table-of-contents)
-
-
-The MIT License (MIT) 2017 - [OPEN COMMUNITY](https://github.com/upes-open).
