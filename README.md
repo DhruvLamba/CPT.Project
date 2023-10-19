@@ -9,7 +9,6 @@
 # Table of contents
 - [Installation](#installation)
 - [Methodology](#methodology)
-- [License](#license)
 
 # Installation
 
