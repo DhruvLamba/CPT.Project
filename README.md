@@ -6,12 +6,14 @@
 ## About 
 #### The aim of the project is to create an encrypted and secured file storage system to transfer files within users in a remote location. This system will require an input that is successfully encrypted using any of the algorithm techniques and store them anywhere. The uploaded file can be downloaded by other users, but to read the data present in it, they have to decrypt the file using the decryption algorithm and the information provided about the file within the users by the owner
 
- ![image](https://user-images.githubusercontent.com/84393721/200160165-65d3b29b-41d8-4008-afaa-ac7376d8eb07.png)
+![image](https://github.com/DhruvLamba/CPT.Project/assets/84393721/398b9875-d2fb-4496-af6b-99fdfa387132)
+
+
 
 # Table of contents
 - [Installation](#installation)
 - [Methodology](#methodology)
-- [License](#license)
+
 
 # Installation
 
@@ -48,15 +50,12 @@ To restore the file:</br>
 2. Decrypt the keys of the algorithms.</br>
 3. Decrypt all the N subfiles using the same algorithms which were used to encrypt them.</br>
 4. Combine all the N subfiles to form the original file and provide it to the user for downloading.</br>
-![image](https://user-images.githubusercontent.com/84393721/200167780-0753d9e1-dca1-46f7-8f82-117ec4bf76da.png)
-![image](https://user-images.githubusercontent.com/84393721/200167160-407095ee-f195-453a-af13-1f0f3560b529.png)
-![image](https://user-images.githubusercontent.com/84393721/200167619-55af5480-a480-4e4e-a356-a2009311b910.png)
+
+![image](https://github.com/DhruvLamba/CPT.Project/assets/84393721/fe2c2bc8-f4b3-4d5f-9902-9d4b7b050770)
+
+![image](https://github.com/DhruvLamba/CPT.Project/assets/84393721/6ad66a8b-8bf1-4495-9b8b-7da439240649)
+
+![image](https://github.com/DhruvLamba/CPT.Project/assets/84393721/f90d6301-735f-402b-b350-563c5e5923fd)
 
 
 
-# License
-
-[(Back to top)](#table-of-contents)
-
-
-The MIT License (MIT) 2017 - [OPEN COMMUNITY](https://github.com/upes-open).
