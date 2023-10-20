@@ -8,6 +8,9 @@ import divider as dv
 import encrypter as enc
 import restore as rst
 import tools
+from flask import request
+from pymongo import MongoClient
+from gridfs import GridFS
 
 
 UPLOAD_FOLDER = './uploads/'
@@ -19,6 +22,9 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['UPLOAD_KEY'] = UPLOAD_KEY
 
 #port = int(os.getenv('PORT', 8000))
+client = MongoClient("mongodb+srv://ayushsk0000:Ucsp7hehpIlapdsJ@upescsa.7bupqwk.mongodb.net/")  # Replace with your MongoDB URI
+db = client['FilesUpload']  # Replace 'your_database' with your database name
+fs = GridFS(db)  # Initialize GridFS
 
 
 def allowed_file(filename):
@@ -101,11 +107,16 @@ def upload_file():
             flash('No selected file')
             return 'NO FILE SELECTED'
         if file:
+            
+            file_data = file.read()
+            file_id = fs.put(file_data, filename=file.filename)
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], file.filename))
             with open('raw_data/meta_data.txt', 'a') as file:
                 file.write(filename + '\n')
             return start_encryption()
+            return f'File uploaded with ID: {file_id}'
+
         return 'Invalid File Format !'
 
 @app.route('/list-encrypted-files')
@@ -143,8 +154,7 @@ def upload_key():
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_KEY'], file.filename))
             return start_decryption()
-        return 'Invalid File Format !'
-    
+        return 'Invalid File Format !'   
 
 
 
