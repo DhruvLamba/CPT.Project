@@ -50,10 +50,12 @@ To restore the file:</br>
 2. Decrypt the keys of the algorithms.</br>
 3. Decrypt all the N subfiles using the same algorithms which were used to encrypt them.</br>
 4. Combine all the N subfiles to form the original file and provide it to the user for downloading.</br>
-![image](https://github.com/DhruvLamba/CPT.Project/assets/84393721/3022863a-7a63-4194-ab7a-6b5baf2884e0)
 
-![image](https://github.com/DhruvLamba/CPT.Project/assets/84393721/93f55816-77b7-4c60-9646-d9ce14834072)
+![image](https://github.com/DhruvLamba/CPT.Project/assets/84393721/fe2c2bc8-f4b3-4d5f-9902-9d4b7b050770)
 
-![image](https://github.com/DhruvLamba/CPT.Project/assets/84393721/6cdde0af-0f1c-4e39-b7e4-f7c8fa9d9087)
+![image](https://github.com/DhruvLamba/CPT.Project/assets/84393721/6ad66a8b-8bf1-4495-9b8b-7da439240649)
+
+![image](https://github.com/DhruvLamba/CPT.Project/assets/84393721/f90d6301-735f-402b-b350-563c5e5923fd)
+
 
 
